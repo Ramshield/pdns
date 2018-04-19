@@ -83,6 +83,7 @@ To compile from git, these additional dependencies are required:
 * GNU `Automake <https://www.gnu.org/software/automake/>`_
 * `Pandoc <http://pandoc.org/>`_
 * `Ragel <http://www.colm.net/open-source/ragel/>`_
+* `Virtualenv <https://virtualenv.pypa.io/en/stable/>`_
 
 dnsdist sourcecode lives in the `PowerDNS git repository <https://github.com/PowerDNS/pdns>`_ but is independent of PowerDNS.
 
@@ -93,6 +94,7 @@ dnsdist sourcecode lives in the `PowerDNS git repository <https://github.com/Pow
   autoreconf -i
   ./configure
   make
+  make install
 
 OS Specific Instructions
 ~~~~~~~~~~~~~~~~~~~~~~~~
